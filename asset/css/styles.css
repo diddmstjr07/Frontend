@@ -1,0 +1,370 @@
+/* 전체 스타일 초기화 */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 컨테이너 스타일 */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 네비게이션 바 스타일 */
+.navbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 푸터 스타일 */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 미디어 쿼리 추가 */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 10px auto;
+    }
+
+    .navbar {
+        padding: 5px;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+/* index.html 배경화면 */
+.index-bg {
+    background-image: url('path/to/index-background.jpg');
+    background-size: cover;
+}
+
+/* main.html 배경화면 */
+.main-bg {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+/* store.html 배경화면 */
+.store-bg {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+/* map.html 배경화면 */
+.map-bg {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+/* points.html 배경화면 */
+.points-bg {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.index-bg {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.singup-bg {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #0e5bf428;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.sign {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form1 {
+    text-align: center;
+}
+.un, .pass {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.submit {
+    width: 39%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #0056b3;
+}
+.forgot {
+    margin-top: 10px;
+    font-size: small;
+    text-align: center;
+}
+
+/*From here is about Point Page*/
+
+.form_border{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    border: 4px, dashed, #ffffff;
+    width: 70x;
+    height: 70px;
+}
+.amountContainer{
+    position: absolute;
+    top: 200px;
+    right: 580px;
+    z-index: 3;
+}
+
+.main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* 입력창 스타일 */
+#inputAmount {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 애니메이션 스타일 */
+#animatedAmount {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .box {
+        position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    margin-bottom: 300;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* 화면 너비에 맞게 조정 */
+    height: auto; /* 내용의 높이에 따라 조정 */
+    margin: 10px 0; /* 좌우 마진 제거 */
+     margin-bottom: 20px; /* 모바일에서 마진 조정 */
+    }
+}
+/* Navbar Styles */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+.body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,white);
+    padding: 150px;
+    left: -50px;
+    top: -100px;
+  }
+.bellWrapper {
+    font-size: 50px;
+  }
+  
+  .my-bell {
+    transform-origin: top;
+    animation: bell 2s infinite linear;
+  }
+  
+  @keyframes bell{
+    0%, 50%{
+      transform: rotate(0deg);
+      }
+    5%, 15%, 25%, 35%, 45% {
+      transform: rotate(13deg);
+    }
+    10%, 20%, 30%, 40% {
+      transform: rotate(-13deg);
+    }
+  }
+  .circle {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    border: 2px solid rgb(255, 93, 93);
+    border-radius: 70%;
+    border-color: transparent rgb(255, 94, 94);
+    animation: ring 2s infinite linear both;
+  }
+  
+  .second {
+    animation-delay: .3s;
+  }
+  
+  .third {
+    animation-delay: .7s;
+  }
+  
+  @keyframes ring{
+    0%, 100% {
+      opacity: 0;
+    }
+    
+    1% {
+      opacity: 1;
+    }
+  
+    50% {
+      width: 250px;
+      height: 250px;
+      opacity: 0;
+    }
+  }
+/* 로그아웃 버튼 스타일 */
+.logout {
+    text-align: center; /* 텍스트 가운데 정렬 */
+    margin-top: 20px; /* 상단 여백 추가 */
+}
+
+#logoutButton {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* 빨간 배경색 */
+    color: #fff; /* 흰색 텍스트 색상 */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    top: 20px;
+    right: 20px
+}
+
+#logoutButton:hover {
+    background-color: #007bff; /* 마우스 호버 시 배경색 변경 */
+}
+
+.btn1 {
+    text-decoration-line: none;
+    position: absolute;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+  }

@@ -1,0 +1,22 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+.image-container {
+  position: relative;
+}
+.image_border {
+  font-family: "Playpen Sans", cursive;
+  border-radius: 20px;
+  width: 500px;
+  position: absolute;
+  z-index: 100;
+  top: 15px;
+  left: 0;
+  text-align: right;
+  font-size: 35px;
+  color: #f25c05;
+  background-color: transparent;
+}
